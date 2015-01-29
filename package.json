@@ -1,0 +1,24 @@
+{
+  "name": "ndarray-inv",
+  "version": "0.1.0",
+  "description": "invert a 2d matrix using Gaussian elimination",
+  "main": "inv.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "linear-algebra",
+    "ndarray"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "MIT",
+  "dependencies": {
+    "ndarray": "^1.0.16",
+    "ndarray-ops": "^1.2.2",
+    "ndarray-show": "^1.1.0",
+    "zeros": "0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
