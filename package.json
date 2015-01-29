@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Planeshifter/ndarray-inv.git"
+  },
   "keywords": [
     "linear-algebra",
     "ndarray"
