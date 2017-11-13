@@ -4,9 +4,9 @@ var zeros = require("ndarray-scratch").zeros;
 var inv = function inv(M){
   // Gauss-Jordan elimination to invert 2d matrix
 
-  if(M.dimension != 2){
+  if(M.dimension !== 2){
     throw new TypeError("Only matrices can be inverted, dimension has to be two.");
-  } else if (M.shape[0] != M.shape[1]){
+  } else if (M.shape[0] !== M.shape[1]){
     throw new TypeError("Matrix must be square");
   }
 
