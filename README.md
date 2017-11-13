@@ -13,17 +13,17 @@ npm install Planeshifter/ndarray-inv
 
 Load function via
 ```JS
-var inv = require("ndarray-inv");
+const inv = require("ndarray-inv");
 ```
 
 Example usage:
 
 ```JS
-var ndarray = require("ndarray");
-var show = require("ndarray-show");
-var ops = require("ndarray-ops");
+const ndarray = require("ndarray");
+const show = require("ndarray-show");
+const ops = require("ndarray-ops");
 
-var M = ndarray(new Float64Array( [2.3, 4.1, 1.8, 1.4] ), [2, 2] )
+const M = ndarray(new Float64Array( [2.3, 4.1, 1.8, 1.4] ), [2, 2] )
 
 console.log( show( inv(M) ) );
 ```

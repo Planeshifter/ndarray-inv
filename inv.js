@@ -1,7 +1,7 @@
-var ndarray = require('ndarray')
-var zeros = require('ndarray-scratch').zeros
+const ndarray = require('ndarray')
+const zeros = require('ndarray-scratch').zeros
 
-var inv = function inv (M) {
+const inv = function inv (M) {
   // Gauss-Jordan elimination to invert 2d matrix
 
   if (M.dimension !== 2) {
@@ -10,14 +10,14 @@ var inv = function inv (M) {
     throw new TypeError('Matrix must be square')
   }
 
-  var i = 0
-  var ii = 0
-  var j = 0
-  var dim = M.shape[0]
-  var e = 0
-  var t = 0
-  var I = zeros([dim, dim])
-  var C = ndarray(new Float64Array(dim * dim), [dim, dim])
+  let i = 0
+  let ii = 0
+  let j = 0
+  const dim = M.shape[0]
+  let e = 0
+  let t = 0
+  const I = zeros([dim, dim])
+  const C = ndarray(new Float64Array(dim * dim), [dim, dim])
 
   for (i = 0; i < dim; i += 1) {
     for (j = 0; j < dim; j += 1) {
