@@ -1,6 +1,6 @@
 {
   "name": "ndarray-inv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "invert a 2d matrix using Gaussian elimination",
   "main": "inv.js",
   "scripts": {
