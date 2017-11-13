@@ -3,16 +3,22 @@
 calculates matrix inverses via Gauss-Jordan elimination. The algorithm has a computational complexity of O(n^3). It handles singular matrices
 by throwing an error when no non-zero pivot can be chosen during the algorithm.
 
+## Install
+
+```
+npm install Planeshifter/ndarray-inv
+```
+
 ## Load
 
 Load function via
-```
-var inv = require("./inv.js");
+```JS
+var inv = require("ndarray-inv");
 ```
 
 Example usage:
 
-```
+```JS
 var ndarray = require("ndarray");
 var show = require("ndarray-show");
 var ops = require("ndarray-ops");
