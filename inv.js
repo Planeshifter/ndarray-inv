@@ -1,5 +1,5 @@
 var ndarray = require("ndarray");
-var zeros = require("zeros");
+var zeros = require("ndarray-scratch").zeros;
 
 var inv = function inv(M){
   // Gauss-Jordan elimination to invert 2d matrix
