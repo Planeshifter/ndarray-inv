@@ -71,4 +71,4 @@ var inv = function inv(M){
   return I;
 };
 
-module.exports = exports = inv;
+module.exports = inv;
