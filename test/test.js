@@ -1,6 +1,6 @@
 var chai = require('chai');
 var ndarray = require('ndarray');
-var inv = require("../main.js");
+var inv = require('../inv.js');
 var expect = chai.expect;
 
 describe("inv handles square matrices", function(){
