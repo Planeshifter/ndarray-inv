@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "invert a 2d matrix using Gaussian elimination",
   "main": "inv.js",
+  "files": ["inv.js", "LICENSE", "README.md"],
   "scripts": {
     "test": "mocha test"
   },
