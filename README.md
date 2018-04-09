@@ -8,7 +8,7 @@ by throwing an error when no non-zero pivot can be chosen during the algorithm.
 ## Install
 
 ```
-npm install Planeshifter/ndarray-inv
+npm install ndarray-inv
 ```
 
 ## Load
