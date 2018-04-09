@@ -16,6 +16,7 @@
     "ndarray"
   ],
   "author": "Philipp Burckhardt",
+  "contributors": ["Dirk Schumacher <mail@dirk-schumacher.net>"],
   "license": "MIT",
   "dependencies": {
     "ndarray": "^1.0.18",
